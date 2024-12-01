@@ -1,11 +1,10 @@
 gsap.from("#page1 img", {
   opacity: 0,
   scale: 0,
-  duration: 2,
-  rotate:360,
+  duration: 3,
+  rotate: 360,
   delay: 2,
   duration: 2,
-  ease: "elastic",
 });
 gsap.from("#page2 .boxs .card", {
   opacity: 0,
