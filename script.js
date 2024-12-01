@@ -24,7 +24,7 @@ gsap.from("#page2 .boxs .card", {
 });
 gsap.from("#page2 h2", {
   opacity: 0,
-  rotateY: -1200,
+  rotateY: -900,
   scale: 0,
   duration: 2,
   scrollTrigger: {
@@ -36,7 +36,7 @@ gsap.from("#page2 h2", {
   },
 });
 gsap.to("#page3 h1", {
-  x: -1600,
+  x: -1900,
   scrollTrigger: {
     trigger: "#page3",
     scroller: "body",
